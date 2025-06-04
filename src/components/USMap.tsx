@@ -33,11 +33,11 @@ const USMap = () => {
     <div className="container mx-auto px-4 py-8">
       <div className="text-center mb-10">
         <h2 className="text-3xl md:text-4xl font-serif font-bold text-blue-900 mb-4">
-          My American Adventures
+         US High Point Adventures
         </h2>
         <p className="max-w-3xl mx-auto text-gray-700">
-          Click on any state to read stories and see photos from my adventures across America. 
-          States in <span className="text-green-700 font-medium">green</span> are places I've visited.
+          Click on any state to read more details about the highest point within that state. 
+          States in <span className="text-green-700 font-medium">green</span> are the ones we have climbed or visited the highest point.
         </p>
       </div>
       
@@ -49,7 +49,7 @@ const USMap = () => {
             role="img"
             aria-label="Map of the United States"
           >
-            <title>United States Map</title>
+            <title>US High Points Map</title>
             <desc>Interactive map of the United States showing states visited during adventures</desc>
             
             {/* State paths will be rendered here from the data */}
@@ -75,11 +75,11 @@ const USMap = () => {
         <div className="absolute bottom-4 left-4 bg-white/90 p-2 rounded-md border border-gray-200 shadow-sm">
           <div className="flex items-center space-x-2">
             <div className="w-4 h-4 bg-green-700"></div>
-            <span className="text-xs text-gray-700">Visited</span>
+            <span className="text-xs text-gray-700">Accomplished</span>
           </div>
           <div className="flex items-center space-x-2 mt-1">
             <div className="w-4 h-4 bg-gray-300"></div>
-            <span className="text-xs text-gray-700">Not Visited Yet</span>
+            <span className="text-xs text-gray-700">Yet to Visit</span>
           </div>
         </div>
         
@@ -107,7 +107,7 @@ const USMap = () => {
         <div className="mt-4 text-center">
           <div className="inline-flex items-center px-3 py-1 bg-blue-900 text-white rounded-full text-sm">
             <MapPinned size={16} className="mr-1" />
-            <span>{usStates.filter(s => s.visited).length} states visited</span>
+            <span>{usStates.filter(s => s.visited).length} state high points climbed</span>
           </div>
         </div>
       </div>
