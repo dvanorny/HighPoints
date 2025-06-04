@@ -84,7 +84,7 @@ const USMap = () => {
         </div>
         
         {/* Compass Rose */}
-        <div className="absolute top-8 right-8 opacity-70">
+        {/* <div className="absolute top-8 right-8 opacity-70">
           <div className="w-16 h-16 relative">
             <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-2 text-lg font-serif">N</div>
             <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-2 text-lg font-serif">S</div>
@@ -93,7 +93,7 @@ const USMap = () => {
             <div className="w-0.5 h-16 bg-gray-700/50 absolute left-1/2 -translate-x-1/2"></div>
             <div className="w-16 h-0.5 bg-gray-700/50 absolute top-1/2 -translate-y-1/2"></div>
           </div>
-        </div>
+        </div> */}
         
         {/* Tooltip */}
         {hoveredState && (
