@@ -68,7 +68,7 @@ jobs:
         name: node-app
 
     - name: 'Copy files to Azure VM'
-      uses: appleboy/scp-action@v0.1.7
+      uses: azure/scp-action@v2
       with:
         host: ${{ secrets.WINRM_HOST }}
         username: ${{ secrets.WINRM_USERNAME }}
@@ -76,16 +76,3 @@ jobs:
         port: 5985
         source: "."
         target: "C:/Websites/HighPoints"
-
-    - name: 'Run deployment script on Azure VM'
-      uses: appleboy/ssh-action@v0.1.10
-      with:
-        host: ${{ secrets.WINRM_HOST }}
-        username: ${{ secrets.WINRM_USERNAME }}
-        password: ${{ secrets.WINRM_PASSWORD }}
-        port: 5985
-        script: |
-          cd C:\Websites\HighPoints
-          npm install
-          npm run build --if-present
-          npm run start
