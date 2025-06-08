@@ -81,13 +81,13 @@ const stateDetailsData: Record<string, StateDetail> = {
       {
         code: 'WV',
         name: 'West Virginia',
-        thumbnail: '/public/photos/flags/wv.jpg',
+        thumbnail: 'https://ik.imagekit.io/rbkdvjmbzh/flags/wv.jpg',
         relation: 'Hiked same day'
       },
       {
         code: 'MD',
         name: 'Maryland',
-        thumbnail: '/public/photos/flags/md.jpg',
+        thumbnail: 'https://ik.imagekit.io/rbkdvjmbzh/flags/md.jpg',
         relation: 'Hiked same day'
       }
     ]
