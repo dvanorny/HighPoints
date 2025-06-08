@@ -2,14 +2,14 @@ import { StateDetail } from '../types';
 
 // This is a mock data store - in a real app this would be fetched from a C# backend API
 const stateDetailsData: Record<string, StateDetail> = {
-  'CA': {
-    code: 'CA',
-    name: 'California',
-    capital: 'Sacramento',
-    visitDate: 'June 2023',
+  'PA': {
+    code: 'PA',
+    name: 'Pennsylvania (Mount Davis)',
+    tallPoint: 'Mount Davis',
+    visitDate: 'May 2025',
     duration: '2 weeks',
-    heroImage: 'https://images.pexels.com/photos/208745/pexels-photo-208745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    mapImage: 'https://images.pexels.com/photos/7291911/pexels-photo-7291911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    heroImage: '/photos/pa-title.png',
+    mapImage: '/photos/pa-map.png',
     highlights: [
       'San Francisco',
       'Yosemite National Park',

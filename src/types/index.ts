@@ -23,7 +23,7 @@ export interface RelatedState {
 export interface StateDetail {
   code: string;
   name: string;
-  capital: string;
+  tallPoint: string;
   visitDate: string;
   duration: string;
   heroImage: string;

@@ -18,6 +18,7 @@ export default {
           900: '#78350f',
         },
         beige: '#f5f5dc',
+        ltblue: '#C4D5F2',
       },
       fontFamily: {
         serif: ['Georgia', 'Cambria', 'Times New Roman', 'Times', 'serif'],

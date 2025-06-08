@@ -157,8 +157,8 @@ const StateDetail = () => {
             <h3 className="text-xl font-serif font-bold mb-4 text-blue-900">About {stateData.name}</h3>
             <div className="space-y-3 text-gray-700">
               <div className="flex items-start">
-                <span className="font-medium w-24">Capital:</span>
-                <span>{stateData.capital}</span>
+                <span className="font-medium w-24">Tallest Point:</span>
+                <span>{stateData.tallPoint}</span>
               </div>
               <div className="flex items-start">
                 <span className="font-medium w-24">Visited:</span>

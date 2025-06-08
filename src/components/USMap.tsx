@@ -42,7 +42,7 @@ const USMap = () => {
       </div>
       
       <div className="relative mx-auto max-w-4xl bg-white p-4 md:p-8 rounded-lg shadow-md">
-        <div className="border-4 border-amber-900/20 rounded-lg p-2 md:p-4 bg-beige shadow-inner">
+        <div className="border-4 border-amber-900/20 rounded-lg p-2 md:p-4 bg-ltblue shadow-inner">
           <svg
             viewBox="0 0 959 593"
             className="w-full h-auto"
