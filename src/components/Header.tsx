@@ -21,7 +21,7 @@ const Header = () => {
           onClick={goHome}
         >
           <MapPin size={24} className="text-amber-400" />
-          <h1 className="text-xl md:text-2xl font-serif font-bold">My US Adventures</h1>
+          <h1 className="text-xl md:text-2xl font-serif font-bold">High Point Adventures</h1>
         </div>
         
         {/* Mobile menu button */}

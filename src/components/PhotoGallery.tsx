@@ -108,9 +108,6 @@ const PhotoGallery = ({ photos }: PhotoGalleryProps) => {
             {photos[currentIndex].caption && (
               <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-white p-3 text-center">
                 <p>{photos[currentIndex].caption}</p>
-                {photos[currentIndex].location && (
-                  <p className="text-sm text-gray-300 mt-1">{photos[currentIndex].location}</p>
-                )}
               </div>
             )}
           </div>

@@ -12,7 +12,7 @@ const RelatedStates = ({ currentState, relatedStates }: RelatedStatesProps) => {
   
   return (
     <div className="bg-white rounded-lg shadow-md p-6">
-      <h3 className="text-xl font-serif font-bold mb-4 text-blue-900">Related Adventures</h3>
+      <h3 className="text-xl font-serif font-bold mb-4 text-blue-900">Related Trips</h3>
       <div className="space-y-3">
         {relatedStates.map((state) => (
           <Link 
@@ -21,7 +21,7 @@ const RelatedStates = ({ currentState, relatedStates }: RelatedStatesProps) => {
             className="flex items-start p-3 rounded-md hover:bg-blue-50 transition group"
           >
             <div className="flex-shrink-0 mr-3">
-              <div className="w-12 h-12 rounded-md overflow-hidden">
+              <div className="w-24 h-14 rounded-md overflow-hidden">
                 <img 
                   src={state.thumbnail} 
                   alt={state.name}

@@ -1,4 +1,4 @@
-import { Github, Mail } from 'lucide-react';
+
 
 const Footer = () => {
   return (
@@ -6,12 +6,12 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <p className="text-sm text-gray-300">© {new Date().getFullYear()} My US Adventures</p>
+            <p className="text-sm text-gray-300">© {new Date().getFullYear()} High Point Adventures</p>
           </div>
           
-          <div className="flex space-x-4">
+          {/* <div className="flex space-x-4">
             <a 
-              href="mailto:info@usadventures.com" 
+              href="mailto:dvanorny@gmail.com" 
               className="text-gray-300 hover:text-amber-400 transition"
               aria-label="Email"
             >
@@ -24,7 +24,7 @@ const Footer = () => {
             >
               <Github size={20} />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

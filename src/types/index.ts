@@ -25,10 +25,23 @@ export interface StateDetail {
   name: string;
   tallPoint: string;
   visitDate: string;
-  duration: string;
+  weather: string;
+  elevationGain: number;
+  hikeLength: number;
+  hikeTime: number;
   heroImage: string;
   mapImage: string;
-  highlights: string[];
+  highlights?: string[];
+  information: {
+    elevation: number;
+    elevationRank: number;
+    location: string;
+  };
+  links: {
+    summitPost?: string;
+    highpointGuide?: string;
+    wikipedia?: string;
+  };
   story: {
     intro: string;
     paragraphs: Array<{
@@ -37,7 +50,7 @@ export interface StateDetail {
     }>;
   };
   photos: Photo[];
-  relatedStates: RelatedState[];
+  relatedStates?: RelatedState[];
   prevState?: {
     code: string;
     name: string;
