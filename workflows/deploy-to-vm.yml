@@ -3,6 +3,7 @@ name: Deploy React + Node to Windows VM
 on:
   workflow_dispatch:  # <-- allows manual trigger
 
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
