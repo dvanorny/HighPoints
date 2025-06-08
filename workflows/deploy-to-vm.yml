@@ -1,0 +1,28 @@
+name: Deploy React + Node to Windows VM
+
+on:
+  workflow_dispatch:  # <-- allows manual trigger
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Deploy via WinRM
+      uses: jasonpearce-dev/psrp@v1
+      with:
+        host: ${{ secrets.WINRM_HOST }}
+        username: ${{ secrets.WINRM_USERNAME }}
+        password: ${{ secrets.WINRM_PASSWORD }}
+        port: 5985
+        protocol: http
+        shell: powershell
+        inline: |
+          cd C:\Websites\HighPoints
+          git pull origin main
+          npm install
+          npm run build
+          Restart-Service -Name "HighPointsService"  # Optional: restart Node backend if it's a service
