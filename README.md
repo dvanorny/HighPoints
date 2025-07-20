@@ -8,6 +8,10 @@
 3. Crop image for title and place it in public\photos folder
 4. Capture google map image and place it in public\photos folder
 
+# To Deploy Updates
+1. In Terminal type "npm run build"
+2. Copy the "C:\Workspace\HighPoints\dist" folder to the HighPoints folder in the Azure VM
+
 ## Photos:
 1. Download to local computer
 2. Convert HEIC to JPG (https://heic2jpg.com/)

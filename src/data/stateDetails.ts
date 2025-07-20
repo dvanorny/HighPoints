@@ -28,15 +28,15 @@ const stateDetailsData: Record<string, StateDetail> = {
       paragraphs: [
         {
           heading: 'Overview',
-          text: 'We made this visit on the way to Madison to visit Claire as she was attending a microbiology camp at UW-Madison. The county park we ended up at is a nice, paved parking lot with a short, well-maintained trail leading to the summit. When we arrived we were the only ones there but as we left, two other cars were also parked. The summit itself is a small clearing with a wooden observation tower. The tower is about 30 feet tall and provides a nice view of the surrounding forest.'
+          text: 'We visited this highpoint on our way to Madison to see Claire, who was attending a microbiology camp at UW-Madison. The county park where the highpoint is located features a paved parking lot and a short, well-maintained trail that leads directly to the summit. When we arrived, we had the place to ourselves, though two other cars showed up as we were leaving. The summit itself is a small clearing with a wooden observation tower, about 30 feet tall, offering a pleasant view of the surrounding forest.'
         },
         {
           heading: 'Drive',
-          text: 'The location is a bit remote, with the drive going through small towns and forest areas. On the way, we stopped at a local diner in Thorpe called the Thorpedo. The town is known for a collection of cows placed around the town (see picture below). We also stopped at the small, local Irvine Park Zoo in Chippewa Falls. We were excited to see a tiger, but apparently it had died a few months prior. And finally we found the Chainsaw Forest tourist attraction outside Medford.'
+          text: 'The route to Timms Hill is somewhat remote, passing through small towns and forested areas. Along the way, we stopped at a local diner in Thorp called The Thorpedo. The town is known for its collection of cow sculptures placed throughout. We also visited the Irvine Park Zoo in Chippewa Falls—a small, local zoo. We were hoping to see the tiger, but found out it had died a few months earlier. Just outside Medford, we stopped at a roadside attraction called the Chainsaw Forest.'
         },
         {
           heading: 'History',
-          text: 'The area surrounding Timms Hill has a rich history tied to early pioneers who settled in the region. These settlers faced numerous challenges as they transformed the wilderness into a community. The hill is believed to be named after a local pioneer, reflecting the heritage of those who sought to establish a new life in the Northwoods of Wisconsin. The observation tower at the summit was built in 1937 by the Civilian Conservation Corps (CCC), a New Deal program that provided jobs and infrastructure development during the Great Depression. The tower has been maintained over the years and remains a popular spot for visitors to enjoy panoramic views of the surrounding landscape.'
+          text: 'The Timms Hill area has a rich history connected to early pioneers who settled in the region. These settlers faced many challenges as they worked to build a community in the Northwoods. The hill is believed to be named after a local pioneer, reflecting the legacy of those who first made their home here. The wooden observation tower at the summit was built in 1937 by the Civilian Conservation Corps (CCC), a New Deal program that provided jobs and infrastructure during the Great Depression. It has been maintained over the years and still offers panoramic views for visitors today.'
         }
       ]
     },
