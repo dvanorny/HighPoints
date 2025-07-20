@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { useParams, Link, useNavigate } from 'react-router-dom';
-import { ChevronLeft, MapPin, Calendar, ArrowLeft, ArrowRight } from 'lucide-react';
+import { useParams, Link } from 'react-router-dom';
+import { ChevronLeft, MapPin, Calendar } from 'lucide-react';
 import { getStateData } from '../data/stateDetails';
 import { StateDetail as StateDetailType } from '../types';
 import PhotoGallery from './PhotoGallery';
@@ -9,7 +9,6 @@ import RelatedStates from './RelatedStates';
 
 const StateDetail = () => {
   const { stateCode } = useParams<{ stateCode: string }>();
-  const navigate = useNavigate();
   const [stateData, setStateData] = useState<StateDetailType | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);

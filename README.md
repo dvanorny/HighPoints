@@ -1,4 +1,6 @@
 # Development Steps
+1. Within Visual Studio Code, go to Terminal and type "npm run build"
+2. Using Run and Debug window, click Play OR open "http://localhost:5173/" 
 
 ## Photos:
 1. Download to local computer

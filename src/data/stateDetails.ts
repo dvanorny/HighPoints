@@ -27,12 +27,8 @@ const stateDetailsData: Record<string, StateDetail> = {
       intro: 'Mount Davis, the highest point in Pennsylvania at 3,213 feet, offers forested trails and scenic views from a historic observation tower.',
       paragraphs: [
         {
-          heading: 'San Francisco Dreams',
-          text: 'I started my journey in San Francisco, where the iconic Golden Gate Bridge emerged from the morning fog as I approached by ferry. The city\'s hills provided breathtaking views at every turn, and I spent days exploring neighborhoods from colorful Castro to bustling Chinatown. The sourdough bread at Fisherman\'s Wharf became a daily ritual, and watching sea lions bask at Pier 39 never got old.'
-        },
-        {
-          heading: 'Yosemite\'s Majesty',
-          text: 'The journey continued eastward to Yosemite National Park, where El Capitan\'s imposing granite face left me speechless. Hiking to Nevada Falls tested my endurance but rewarded me with views that no photograph could truly capture. I woke before dawn one morning to watch the sunrise paint Half Dome in golden light - a moment of perfect solitude amidst the grandeur of nature.'
+          heading: 'Overview',
+          text: 'This was the first high point that we officially visited.'
         },
         {
           heading: 'History',
