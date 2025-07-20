@@ -219,7 +219,7 @@ const StateDetail = () => {
                       Highpoint Guide
                     </a>
                   </li>
-                  {/* <li>
+                  <li>
                     <a
                       href={stateData.links.summitPost}
                       target="_blank"
@@ -228,7 +228,7 @@ const StateDetail = () => {
                     >
                       Summit Post
                     </a>
-                  </li> */}
+                  </li>
                   <li>
                     <a
                       href={stateData.links.wikipedia}
